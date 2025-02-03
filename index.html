@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>店铺菜单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎光临我们的店铺</h1>
+        <p>探索我们的精选商品</p>
+    </header>
+
+    <section class="menu">
+        <div class="filter">
+            <button class="filter-btn active" data-filter="all">全部</button>
+            <button class="filter-btn" data-filter="clothing">衣服</button>
+            <button class="filter-btn" data-filter="accessories">配饰</button>
+            <button class="filter-btn" data-filter="shoes">鞋子</button>
+        </div>
+
+        <div class="items">
+            <div class="item" data-category="clothing">
+                <img src="assets/" alt="T恤">
+                <h3>简约T恤</h3>
+                <p>¥99.00</p>
+            </div>
+            <div class="item" data-category="clothing">
+                <img src="assets/2.jpg" alt="夹克">
+                <h3>时尚夹克</h3>
+                <p>¥299.00</p>
+            </div>
+            <div class="item" data-category="accessories">
+                <img src="assets/3.jpg" alt="包包">
+                <h3>潮流背包</h3>
+                <p>¥199.00</p>
+            </div>
+            <div class="item" data-category="shoes">
+                <img src="assets/4.jpg" alt="鞋子">
+                <h3>运动鞋</h3>
+                <p>¥399.00</p>
+            </div>
+            <!-- 更多商品可以继续添加 -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 你的店铺名称. 保留所有权利.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
